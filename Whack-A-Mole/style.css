@@ -36,7 +36,7 @@
 }
 
 
-#myButton {
+.submit-button{
     background-color: #555555;
     /* Black */
     border: none;
@@ -48,11 +48,19 @@
     font-size: 16px;
     transition-duration: 0.4s;
     position: absolute;
+}
+
+.submit-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(184, 181, 181, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+#gitButton {
     bottom: 40px;
     left: 30px;
 }
 
-#myButton:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+#homeButton {
+    bottom: 40px;
+    left: 205px;
 }

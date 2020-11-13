@@ -46,8 +46,12 @@ function countDown() {
   }
 }
 
-document.getElementById("myButton").onclick = function () {
+document.getElementById("gitButton").onclick = function () {
   window.open('https://github.com/dhruvjha11', '_blank')
+};
+
+document.getElementById("homeButton").onclick = function () {
+  window.open('https://djcode.ga')
 };
 
 let timerId = setInterval(countDown, 1000)
