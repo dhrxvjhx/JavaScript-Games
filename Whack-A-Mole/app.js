@@ -47,7 +47,7 @@ function countDown() {
 }
 
 document.getElementById("myButton").onclick = function () {
-  location.href = "https://github.com/dhruvjha11/TicTacToe";
+  window.open('https://github.com/dhruvjha11', '_blank')
 };
 
 let timerId = setInterval(countDown, 1000)
